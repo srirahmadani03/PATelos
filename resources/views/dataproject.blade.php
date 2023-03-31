@@ -142,7 +142,7 @@
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item">
-              <a href="dashboard" class="menu-link">
+              <a href="/" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -150,7 +150,7 @@
 
             <!-- Layouts -->
           
-
+            <!-- Data Project -->
 
             <li class="menu-item">
               <a href="dataproject" class="menu-link ">
@@ -164,7 +164,7 @@
 
             <!-- Technological -->
          
-
+            <!-- Technological -->
             <li class="menu-item">
               <a href="technologi" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-card"></i>
@@ -198,7 +198,7 @@
 
              <!-- Schedule -->
              <li class="menu-item">
-              <a href="schedule" class="menu-link">
+              <a href="shedule" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-time"></i>
                 <div data-i18n="Tables"> Schedule</div>
               </a>
@@ -300,132 +300,14 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="card">
-                <h5 class="card-header">Technology</h5>
-                <div class="table-responsive text-nowrap">
-                  <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th>Category</th>
-                        <th>Item</th>
-                        <th>Specification</th>
-                        <th>Price</th>
-                        <th>Source</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
-                        <td>Albert Cook</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Sophia Wilkerson" data-bs-original-title="Sophia Wilkerson">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/6.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Christina Parker" data-bs-original-title="Christina Parker">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/7.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                          </ul>
-                        </td>
-                        
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
-                        <td>Barry Hunter</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Sophia Wilkerson" data-bs-original-title="Sophia Wilkerson">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/6.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Christina Parker" data-bs-original-title="Christina Parker">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/7.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-success me-1">Completed</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
-                        <td>Trevor Baker</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Sophia Wilkerson" data-bs-original-title="Sophia Wilkerson">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/6.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Christina Parker" data-bs-original-title="Christina Parker">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/7.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-info me-1">Scheduled</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
-                        <td>Jerry Milton</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Sophia Wilkerson" data-bs-original-title="Sophia Wilkerson">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/6.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                            <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" aria-label="Christina Parker" data-bs-original-title="Christina Parker">
-                              <img src="https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo//assets/img/avatars/7.png" alt="Avatar" class="rounded-circle">
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                              <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div class="col-lg-6 col-md-12 col-6 mb-4">
+                <div class="card">
+                  <div class="card-body pb-0">
+                    <span class="d-block fw-semibold mb-1">Order</span>
+                    <h3 class="card-title mb-1">276k</h3>
+                  </div>
+                  <div id="orderChart" class="mb-3" style="min-height: 80px;"><div id="apexcharts9pvgr8nz" class="apexcharts-canvas apexcharts9pvgr8nz apexcharts-theme-light" style="width: 140px; height: 80px;"><svg id="SvgjsSvg1444" width="140" height="80" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1446" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1445"><clipPath id="gridRectMask9pvgr8nz"><rect id="SvgjsRect1451" width="138" height="82" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMask9pvgr8nz"></clipPath><clipPath id="nonForecastMask9pvgr8nz"></clipPath><clipPath id="gridRectMarkerMask9pvgr8nz"><rect id="SvgjsRect1452" width="160" height="108" x="-14" y="-14" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><linearGradient id="SvgjsLinearGradient1470" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1471" stop-opacity="0.8" stop-color="rgba(113,221,55,0.8)" offset="0"></stop><stop id="SvgjsStop1472" stop-opacity="0.25" stop-color="rgba(227,248,215,0.25)" offset="0.85"></stop><stop id="SvgjsStop1473" stop-opacity="0.25" stop-color="rgba(227,248,215,0.25)" offset="1"></stop></linearGradient></defs><line id="SvgjsLine1450" x1="131.5" y1="0" x2="131.5" y2="80" stroke="#b6b6b6" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="131.5" y="0" width="1" height="80" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG1476" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1477" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1486" class="apexcharts-grid"><g id="SvgjsG1487" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1489" x1="0" y1="0" x2="132" y2="0" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1490" x1="0" y1="16" x2="132" y2="16" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1491" x1="0" y1="32" x2="132" y2="32" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1492" x1="0" y1="48" x2="132" y2="48" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1493" x1="0" y1="64" x2="132" y2="64" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1494" x1="0" y1="80" x2="132" y2="80" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1488" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1496" x1="0" y1="80" x2="132" y2="80" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1495" x1="0" y1="1" x2="0" y2="80" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1453" class="apexcharts-area-series apexcharts-plot-series"><g id="SvgjsG1454" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1474" d="M 0 80L 0 56C 7.699999999999999 56 14.3 58 22 58C 29.7 58 36.3 18 44 18C 51.7 18 58.3 72 66 72C 73.7 72 80.3 46 88 46C 95.7 46 102.3 52 110 52C 117.7 52 124.3 10 132 10C 132 10 132 10 132 80M 132 10z" fill="url(#SvgjsLinearGradient1470)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask9pvgr8nz)" pathTo="M 0 80L 0 56C 7.699999999999999 56 14.3 58 22 58C 29.7 58 36.3 18 44 18C 51.7 18 58.3 72 66 72C 73.7 72 80.3 46 88 46C 95.7 46 102.3 52 110 52C 117.7 52 124.3 10 132 10C 132 10 132 10 132 80M 132 10z" pathFrom="M -1 128L -1 128L 22 128L 44 128L 66 128L 88 128L 110 128L 132 128"></path><path id="SvgjsPath1475" d="M 0 56C 7.699999999999999 56 14.3 58 22 58C 29.7 58 36.3 18 44 18C 51.7 18 58.3 72 66 72C 73.7 72 80.3 46 88 46C 95.7 46 102.3 52 110 52C 117.7 52 124.3 10 132 10" fill="none" fill-opacity="1" stroke="#71dd37" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask9pvgr8nz)" pathTo="M 0 56C 7.699999999999999 56 14.3 58 22 58C 29.7 58 36.3 18 44 18C 51.7 18 58.3 72 66 72C 73.7 72 80.3 46 88 46C 95.7 46 102.3 52 110 52C 117.7 52 124.3 10 132 10" pathFrom="M -1 128L -1 128L 22 128L 44 128L 66 128L 88 128L 110 128L 132 128"></path><g id="SvgjsG1455" class="apexcharts-series-markers-wrap" data:realIndex="0"><g id="SvgjsG1457" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1458" r="6" cx="0" cy="56" class="apexcharts-marker no-pointer-events wfigetvvl" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="0" j="0" index="0" default-marker-size="6"></circle><circle id="SvgjsCircle1459" r="6" cx="22" cy="58" class="apexcharts-marker no-pointer-events wc9gix67c" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="1" j="1" index="0" default-marker-size="6"></circle></g><g id="SvgjsG1460" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1461" r="6" cx="44" cy="18" class="apexcharts-marker no-pointer-events wskvgtvo9" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="2" j="2" index="0" default-marker-size="6"></circle></g><g id="SvgjsG1462" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1463" r="6" cx="66" cy="72" class="apexcharts-marker no-pointer-events wy2zrxtzs" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="3" j="3" index="0" default-marker-size="6"></circle></g><g id="SvgjsG1464" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1465" r="6" cx="88" cy="46" class="apexcharts-marker no-pointer-events w9fwffcpti" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="4" j="4" index="0" default-marker-size="6"></circle></g><g id="SvgjsG1466" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1467" r="6" cx="110" cy="52" class="apexcharts-marker no-pointer-events w08ez1cfe" stroke="transparent" fill="transparent" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="5" j="5" index="0" default-marker-size="6"></circle></g><g id="SvgjsG1468" class="apexcharts-series-markers" clip-path="url(#gridRectMarkerMask9pvgr8nz)"><circle id="SvgjsCircle1469" r="6" cx="132" cy="10" class="apexcharts-marker no-pointer-events wj3v4537g" stroke="#71dd37" fill="#ffffff" fill-opacity="1" stroke-width="4" stroke-opacity="0.9" rel="6" j="6" index="0" default-marker-size="6"></circle></g></g></g><g id="SvgjsG1456" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1497" x1="0" y1="0" x2="132" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1498" x1="0" y1="0" x2="132" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1499" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1500" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1501" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect1449" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1485" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1447" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 40px;"></div><div class="apexcharts-tooltip apexcharts-theme-light" style="left: 2.09375px; top: 13.5px;"><div class="apexcharts-tooltip-title" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">7</div><div class="apexcharts-tooltip-series-group apexcharts-active" style="order: 1; display: flex;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(113, 221, 55);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">series-1: </span><span class="apexcharts-tooltip-text-y-value">295</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
+                <div class="resize-triggers"><div class="expand-trigger"><div style="width: 141px; height: 180px;"></div></div><div class="contract-trigger"></div></div></div>
               </div>
           
             

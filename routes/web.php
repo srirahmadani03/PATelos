@@ -20,3 +20,30 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/dataproject', function () {
+    return view('dataproject');
+});
+
+Route::get('/technologi', function () {
+    return view('technologi');
+});
+
+Route::get('/economic', function () {
+    return view('economic');
+});
+
+Route::get('/legal', function () {
+    return view('legal');
+});
+
+Route::get('/operational', function () {
+    return view('operational');
+});
+Route::get('/schedule', function () {
+    return view('schedule');
+});
+
+Route::get('/summary', function () {
+    return view('summary');
+});
