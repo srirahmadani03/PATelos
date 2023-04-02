@@ -299,8 +299,10 @@
           <div class="content-wrapper">
             <!-- Content --><div class="container-xxl flex-grow-1 container-p-y">
 <div class="card">
-  <h5 class="card-header">Bordered Table</h5>
+  <h5 class="card-header">Legalitas</h5>
+  
   <div class="card-body">
+  <p class="mb-4"> This page think about the legal aspects of your proposal.</p>
     <div class="table-responsive text-nowrap">
       <table class="table table-bordered">
         <thead>
@@ -308,7 +310,7 @@
             <th>Name</th>
             <th>Description</th>
             <th>Status</th>
-            <th>Actions</th>
+            <th>Claim</th>
           </tr>
         </thead>
         <tbody>
@@ -321,14 +323,8 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="dropdown">
-                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oj0iy"><i class="bx bx-dots-vertical-rounded"></i></button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                </div>
-              </div>
-            </td>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+          </td>
           </tr>
           <tr>
             <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>Lisensi</strong></td>
@@ -341,13 +337,8 @@
             </td>
 
             <td>
-              <div class="dropdown">
-                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="onl8mu"><i class="bx bx-dots-vertical-rounded"></i></button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                </div>
-              </div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+          </td>
             </td>
           </tr>
           <tr>
@@ -359,13 +350,8 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="dropdown">
-                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="7f04g"><i class="bx bx-dots-vertical-rounded"></i></button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                </div>
-              </div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+          </td>
             </td>
           </tr>
           <tr>
@@ -377,14 +363,8 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="dropdown">
-                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="bxbxcl"><i class="bx bx-dots-vertical-rounded"></i></button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                  <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                </div>
-              </div>
-            </td>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+          </td>
           </tr>
         </tbody>
       </table>
