@@ -303,6 +303,16 @@
   
   <div class="card-body">
   <p class="mb-4"> This page think about the legal aspects of your proposal.</p>
+
+  
+  <select id="defaultSelect" class="form-select" fdprocessedid="kn6s7am">
+            <option>Chose Project</option>
+            <option value="1">RAMPAH</option>
+            <option value="2">BRANDQU</option>
+            <option value="3">SYAHDU</option>
+          </select><br>
+              
+
     <div class="table-responsive text-nowrap">
       <table class="table table-bordered">
         <thead>
@@ -323,7 +333,7 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button>
           </td>
           </tr>
           <tr>
@@ -337,7 +347,7 @@
             </td>
 
             <td>
-              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button>
           </td>
             </td>
           </tr>
@@ -350,7 +360,7 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button>
           </td>
             </td>
           </tr>
@@ -363,15 +373,19 @@
               <option value="1">Non Active</option></select>
             </td>
             <td>
-              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button><button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown" fdprocessedid="oqo5kd"><i class="bx bx-dots-vertical-rounded"></i></button><div class="dropdown-menu dropdown-menu-end m-0"><a href="app-user-view-account.html" class="dropdown-item">View</a><a href="javascript:;" class="dropdown-item">Suspend</a></div></div>
+              <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button>
           </td>
           </tr>
         </tbody>
       </table>
+      <br>
+      <button type="submit" class="btn btn-primary" fdprocessedid="44taow">Save</button>
+      <button type="cancel" class="btn btn-primary" fdprocessedid="44taow">Cancel</button>
     </div>
   </div>
 </div>
 </div>
+
             <!-- / Content -->
 
             <!-- Footer -->
