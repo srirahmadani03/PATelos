@@ -18,6 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
+    return view('login');
+});
+
+Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
