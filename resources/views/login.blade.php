@@ -136,7 +136,7 @@
                         <h4 class="mb-2">Welcome to TELOS 👋</h4>
                         <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
-                        <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+                        <form id="formAuthentication" class="mb-3" action="dashboard">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email or Username</label>
                                 <input type="text" class="form-control" id="email" name="email-username"
@@ -164,10 +164,17 @@
                                     </label>
                                 </div>
                             </div> --}}
+                            {{-- <div class="mb-3">
+                                <a href="/dashboard">
+                                    <button class="btn btn-primary d-grid w-100">Sign-in
+                                    </button>
+                            </div> --}}
+
                             <div class="mb-3">
-                                <button class="btn btn-primary d-grid w-100">
-                                    <a href="/dashboard"> Sign-in </button>
+                                <button class="btn btn-primary d-grid w-100" type="submit">
+                                    Sign in <a href="/dashboard"></button>
                             </div>
+                        </form>
                         </form>
 
                     </div>
