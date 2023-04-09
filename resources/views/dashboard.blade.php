@@ -364,7 +364,7 @@
                             </div>
                           </div>
                         </div>
-                        <span>Legal</span>
+                        <span class="fw-semibold d-block mb-1">Legal</span>
                         <h3 class="card-title text-nowrap mb-1">00:00</h3>
                         <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> 100%</small>
                       </div>
@@ -524,7 +524,7 @@
                             </div>
                           </div>
                         </div>
-                        <span class="fw-semibold d-block mb-1">Transactions</span>
+                        <span class="fw-semibold d-block mb-1">Technological</span>
                         <h3 class="card-title mb-2">$14,857</h3>
                         <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.14%</small>
                       </div>
@@ -538,7 +538,7 @@
                         <div class="d-flex justify-content-between flex-sm-row flex-column gap-3" style="position: relative;">
                           <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
                             <div class="card-title">
-                              <h5 class="text-nowrap mb-2">Profile Report</h5>
+                              <h5 class="text-nowrap mb-2">Operational</h5>
                               <span class="badge bg-label-warning rounded-pill">Year 2021</span>
                             </div>
                             <div class="mt-sm-auto">
