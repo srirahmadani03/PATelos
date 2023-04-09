@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class legalitas extends Model
 {
-    use HasFactory;
+    protected $table = 'legalitas'
+    protected $primarykey = 'id_legalitas'
+    protected $fillable = [
+        'id_legalitas', 'name', 'description', 'status'
+    ];
 }

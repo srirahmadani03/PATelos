@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+use App\Http\Controllers\DataProjectController;
 Route::get('/', function () {
     return view('login');
 });
@@ -25,9 +25,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/dataproject', function () {
-    return view('dataproject');
-});
+// Route::get('/dataproject', function () {
+//     return view('dataproject');
+// });
 
 Route::get('/technologi', function () {
     return view('technologi');
@@ -51,3 +51,6 @@ Route::get('/schedule', function () {
 Route::get('/summary', function () {
     return view('summary');
 });
+
+Route::resource('dataproject', DataProjectController::class);
+Route::resource('dataproject_tambah', DataProjectController\Create::class);
