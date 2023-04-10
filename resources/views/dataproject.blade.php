@@ -316,16 +316,15 @@
         </thead>
         
         <tbody>
-        @foreach($dtProject as $data_projects)
-        
-          <tr>
-            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong></strong> 
-            {{ $data_projects-> name}}</td>
-            <td>{{ $data_projects-> description}}</td>
-            <td>{{ $data_projects-> team_name }}</td>
+        @foreach ($dtProject as $data_projects)
+<tr>
+            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong></strong>
+            {{ $data_projects->name }}</td>
+            <td>{{ $data_projects->description }}</td>
+            <td>{{ $data_projects->team_name }}</td>
             <td>
               <div class="d-inline-block text-nowrap"><button class="btn btn-sm btn-icon" fdprocessedid="bi5gvc"><i class="bx bx-edit"></i></button><button class="btn btn-sm btn-icon delete-record" fdprocessedid="sujs5e"><i class="bx bx-trash"></i></button>
-              @endforeach
+@endforeach
           </td>
           </tr>
         </tbody>
